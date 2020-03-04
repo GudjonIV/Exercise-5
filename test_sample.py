@@ -8,3 +8,6 @@ def testDiv5():
 
 def testDiv3():
     assert sample.fizzbuzz(3) == "Fizz"
+
+def testNotDiv3Or5():
+    assert sample.fizzbuzz(2) == 2
