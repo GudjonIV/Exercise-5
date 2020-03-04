@@ -5,3 +5,6 @@ def testDiv5And3():
 
 def testDiv5():
     assert sample.fizzbuzz(5) == "Buzz"
+
+def testDiv3():
+    assert sample.fizzbuzz(3) == "Fizz"
